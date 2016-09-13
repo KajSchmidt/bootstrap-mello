@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Megamello</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="info">
+    <h1>Melodifestivalen</h1>
+    <p>Melodifestivalen är en återkommande svensk musiktävling, anordnad av Sveriges Television. Tävlingens vinnare blir Sveriges bidrag till den europeiska musiktävlingen Eurovision Song Contest (ESC). Sedan 1958 har Sveriges artist och bidrag till Eurovision Song Contest valts ut genom en nationell final, med undantag för åren 1964, 1970 och 1976. Dessa tre år avstod Sverige deltagande i ESC av olika skäl. Den nationella finalen har sedan 1967 gått under namnet Melodifestival, som år 2001 ändrades till Melodifestivalen. Programmet är ett av Sveriges mest sedda. Rekordet sattes 2006, då finalen hade 4 242 000 tittare.</p>
+    <p>(Källa: https://sv.wikipedia.org/wiki/Melodifestivalen)</p>
+  </div>
+
+  <div id="table">
+    <table class="table">
+    <tr>
+      <th>Nummer</th>
+      <th>Namn</th>
+      <th></th>
+    </tr>
+
+    <tr>
+      <td class="td_num">1</td>
+      <td>Panetoz – ”Håll om mig hårt”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+    <tr>
+      <td class="td_num">2</td>
+      <td>Lisa Ajax – ”My Heart Wants Me Dead”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+    <tr>
+      <td class="td_num">3</td>
+      <td>David Lindgren – “We are Your Tomorrow”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+    <tr>
+      <td class="td_num">4</td>
+      <td>SaRaha – “Kizunguzungu”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+    <tr>
+      <td class="td_num">5</td>
+      <td>Oscar Zia – “Human”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+
+      <tr>
+      <td class="td_num">6</td>
+      <td>Ace Wilder – “Don’t Worry”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">7</td>
+      <td>Robin Bengtsson – “Constellation Prize”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">8</td>
+      <td>Molly Sandén – “Youniverse”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">9</td>
+      <td>Boris René – “Put Your Love on Me”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">10</td>
+      <td>Frans – “If I Were Sorry”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">11</td>
+      <td>Wiktoria – “Save Me”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+
+      <tr>
+      <td class="td_num">12</td>
+      <td>Samir & Viktor – “Bada nakna”</td>
+      <td><img class="img-circle img-band" src="placeholder.png"></td>
+    </tr>
+    </table>
+  </div>
+
+  <div id="form">
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="form_num">Bidrag</label>
+        <select class="form-control" id="form_num">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="form_name">Namn</label>
+        <input type="text" class="form-control" id="form_name" placeholder="Namn">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="form_tele">Telefonnummer</label>
+        <input type="number" class="form-control" id="form_tele" placeholder="Telefonnummer">
+      </div>
+      <button type="submit" class="btn btn-success">Rösta</button>
+    </form>
+  </div>
+
+</body>
+</html>
